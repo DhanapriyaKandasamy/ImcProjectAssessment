@@ -1,0 +1,90 @@
+05:52:08.900 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - Chrome browser launched successfully
+05:52:10.965 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - ****Starting TestCase TC1_LMSILS_46752
+05:52:10.965 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - Step 1 : Login with DVuser05 user
+05:52:11.088 [main] INFO  com.imc.assessment.pageclass.LoginPage - Logged with :DVuser05
+05:52:11.666 [main] INFO  com.imc.assessment.pageclass.LoginPage - User Login successfull!
+05:52:11.667 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - Step 2 : Navigate to Dashboard ID : 927747
+05:52:12.221 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - Navigation successful
+05:52:12.221 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - Step 3 : In the Dashboard page click search and check for content loading
+05:52:13.122 [main] INFO  com.imc.assessment.pageclass.DashboardPage - Step 2 : Clicked on search button
+05:52:13.605 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Catalog content is loaded successfully
+05:52:13.605 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - Step 4 : Navigate back to Dashboard page
+05:52:13.914 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - Navigation successful
+05:52:13.916 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - Step 5 : Click Language skills and check filter is applied
+05:52:14.767 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Clicked Language skills link
+05:52:15.245 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Filter is not removed as expected
+05:52:15.270 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Course filtered is 1as expected
+05:52:15.270 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - Step 6 : Remove Language skills link and check filter is applied
+05:52:15.342 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Language skills filter removed
+05:52:25.377 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Filter is not removed as expected
+05:52:25.377 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - Step 7 : Navigate back to Dashboard page
+05:52:25.788 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - Navigation successful
+05:52:25.788 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - Step 8 : Click MSOffice link and check filter is applied
+05:52:26.530 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Clicked MSOffice link
+05:52:27.043 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Loaded with MS Office filter
+05:52:27.043 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - Step 9 : Scroll down and click Show more results 
+05:52:27.295 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - LoadMore option is clicked
+05:52:27.295 [main] INFO  com.imc.assessment.testcases.TC_001_LMSILS_46752 - Step 10 : User logout
+05:52:27.656 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - User Signed Out
+05:52:29.514 [main] INFO  com.imc.assessment.testcases.TC_002_LMSILS_44824 - Chrome browser launched successfully
+05:52:31.061 [main] INFO  com.imc.assessment.testcases.TC_002_LMSILS_44824 - ****Starting TestCase TC1_LMSILS_46752
+05:52:31.061 [main] INFO  com.imc.assessment.testcases.TC_002_LMSILS_44824 - Step 1 : Login with QAAutomation1! user and check for time conflict warning is unchecked
+05:52:31.333 [main] INFO  com.imc.assessment.pageclass.LoginPage - Logged with :QAAutomation1!
+05:52:32.632 [main] INFO  com.imc.assessment.pageclass.LoginPage - User Login successfull!
+05:52:32.714 [main] INFO  com.imc.assessment.pageclass.HomePage - Clicked on Categories Link
+05:52:32.842 [main] INFO  com.imc.assessment.pageclass.HomePage - Changed to Admin Mode
+05:52:32.903 [main] INFO  com.imc.assessment.pageclass.HomePage - Clicked on People Dropdown
+05:52:33.683 [main] INFO  com.imc.assessment.pageclass.HomePage - Clicked on Client Option
+05:52:34.309 [main] INFO  com.imc.assessment.pageclass.HomePage - Client Header validated - Navigation successful
+05:52:34.611 [main] INFO  com.imc.assessment.pageclass.HomePage - Selected Clients row
+05:52:34.987 [main] INFO  com.imc.assessment.pageclass.HomePage - Selected Edit -> GLOBAL option
+05:52:37.182 [main] INFO  com.imc.assessment.pageclass.HomePage - Moved to Settings tab
+05:52:37.398 [main] INFO  com.imc.assessment.pageclass.HomePage - Warnings of Time conflicts checkbox not selected
+05:52:38.046 [main] INFO  com.imc.assessment.pageclass.HomePage - User Loggedout successfully
+05:52:38.047 [main] INFO  com.imc.assessment.testcases.TC_002_LMSILS_44824 - Step2 : Login with warninguser1 user and search for course warntimimg
+05:52:38.511 [main] INFO  com.imc.assessment.pageclass.LoginPage - Logged with :warninguser1
+05:52:39.328 [main] INFO  com.imc.assessment.pageclass.LoginPage - User Login successfull!
+05:52:40.115 [main] INFO  com.imc.assessment.pageclass.HomePage - Navigated to Catalogue search page
+05:52:40.589 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Entered text #WarnTiming
+05:52:40.680 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Clicked search button
+05:52:41.451 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - 4WarnTiming Courses are found
+05:52:41.475 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - 2WarnTiming Course Templates are found
+05:52:42.258 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Selected TD #Course #WarnTiming #LongAvailability
+05:52:42.258 [main] INFO  com.imc.assessment.testcases.TC_002_LMSILS_44824 - Step 3 and 4: Search course 'Long Availability', click enroll and check no time conflict warning is present and click Cancel
+05:52:42.540 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Selected Enrol Button
+05:52:42.821 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Message prompted for enrollment confirmation
+05:52:42.855 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Message prompted without TimeFrame
+05:52:42.921 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Enrolment cancelled
+05:52:43.480 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - User Signed Out
+05:52:43.480 [main] INFO  com.imc.assessment.testcases.TC_002_LMSILS_44824 - Login with QAAutomation1! user and change settings under enrolment for time conflict warning as true
+05:52:43.953 [main] INFO  com.imc.assessment.pageclass.LoginPage - Logged with :QAAutomation1!
+05:52:44.809 [main] INFO  com.imc.assessment.pageclass.LoginPage - User Login successfull!
+05:52:45.155 [main] INFO  com.imc.assessment.pageclass.HomePage - Clicked on Categories Link
+05:52:45.255 [main] INFO  com.imc.assessment.pageclass.HomePage - Changed to Admin Mode
+05:52:45.302 [main] INFO  com.imc.assessment.pageclass.HomePage - Clicked on People Dropdown
+05:52:45.907 [main] INFO  com.imc.assessment.pageclass.HomePage - Clicked on Client Option
+05:52:46.492 [main] INFO  com.imc.assessment.pageclass.HomePage - Client Header validated - Navigation successful
+05:52:46.754 [main] INFO  com.imc.assessment.pageclass.HomePage - Selected Clients row
+05:52:47.010 [main] INFO  com.imc.assessment.pageclass.HomePage - Selected Edit -> GLOBAL option
+05:52:49.206 [main] INFO  com.imc.assessment.pageclass.HomePage - Moved to Settings tab
+05:52:49.556 [main] INFO  com.imc.assessment.pageclass.HomePage - Enrolment -> Time conflict warning checked
+05:52:50.689 [main] INFO  com.imc.assessment.pageclass.HomePage - Client setting saved successfully
+05:52:51.486 [main] INFO  com.imc.assessment.pageclass.HomePage - User Loggedout successfully
+05:52:51.486 [main] INFO  com.imc.assessment.testcases.TC_002_LMSILS_44824 - Step6 and 7 : Login with warninguser1 user and search for course warntimimg and enroll check Time conflict in message prompted.
+05:52:52.158 [main] INFO  com.imc.assessment.pageclass.LoginPage - Logged with :warninguser1
+05:52:52.771 [main] INFO  com.imc.assessment.pageclass.LoginPage - User Login successfull!
+05:52:54.502 [main] INFO  com.imc.assessment.pageclass.HomePage - Navigated to Catalogue search page
+05:52:54.611 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Entered text #WarnTiming
+05:52:54.672 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Clicked search button
+05:52:55.533 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - 4WarnTiming Courses are found
+05:52:55.555 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - 2WarnTiming Course Templates are found
+05:52:56.299 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Selected TD #Course #WarnTiming #LongAvailability
+05:52:56.583 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Selected Enrol Button
+05:52:56.776 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Message prompted for enrollment confirmation
+05:52:56.796 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Message prompted with TimeFrame
+05:52:56.861 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Enrolment cancelled
+05:52:56.861 [main] INFO  com.imc.assessment.testcases.TC_002_LMSILS_44824 - Enroll Course for User
+05:52:56.892 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Selected Enrol Button
+05:52:57.063 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Message prompted for enrollment confirmation
+05:52:57.094 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Message prompted with TimeFrame
+05:52:57.141 [main] INFO  com.imc.assessment.pageclass.CatalogSearch - Clicked Enrolment button
